@@ -6,31 +6,6 @@ namespace ISSDeserializer
 {
     class Program
     {
-        /*static void Main(string[] args)
-        {
-            string jsonResponse = @"{
-                ""name"": ""iss"",
-                ""id"": 25544,
-                ""latitude"": 50.11496269845,
-                ""longitude"": 118.07900427317,
-                ""altitude"": 408.05526028199,
-                ""velocity"": 27635.971970874,
-                ""visibility"": ""daylight"",
-                ""footprint"": 4446.1877699772,
-                ""timestamp"": 1364069476,
-                ""daynum"": 2456375.3411574,
-                ""solar_lat"": 1.3327003598631,
-                ""solar_lon"": 238.78610691196,
-                ""units"": ""kilometers""
-            }";
-
-            ISSData issData = JsonConvert.DeserializeObject<ISSData>(jsonResponse);
-
-            Console.WriteLine($"Name: {issData.name}");
-            Console.WriteLine($"ID: {issData.id}");
-            // ... (print other properties as needed)
-            Console.ReadKey();
-        }*/
         static async System.Threading.Tasks.Task Main(string[] args)
         {
             string url = "https://api.wheretheiss.at/v1/satellites/25544";
