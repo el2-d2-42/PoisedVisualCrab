@@ -10,6 +10,7 @@ public class Rotation : MonoBehaviour
     void Start()
     {
         // Set the axis of rotation based on Earth's axial tilt
+        // test
         //axisOfRotation = Quaternion.Euler(0, 0,23.5f) * Vector3.up;
     }
 
