@@ -1,0 +1,17 @@
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.AssemblyInfoInputs.cache
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.AssemblyInfo.cs
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.csproj.CoreCompileInputs.cache
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/API_Demo
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/API_Demo.deps.json
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/API_Demo.runtimeconfig.json
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/API_Demo.dll
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/API_Demo.pdb
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.csproj.AssemblyReference.cache
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.csproj.CopyComplete
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.dll
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/refint/API_Demo.dll
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.pdb
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/API_Demo.genruntimeconfig.cache
+/Users/peruzziel/Documents/Durham/repos/DurHack2023/PoisedVisualCrab/API_Demo/obj/Debug/net6.0/ref/API_Demo.dll
