@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            },
             "system.net.http": {
               "target": "Package",
               "version": "[4.3.4, )"

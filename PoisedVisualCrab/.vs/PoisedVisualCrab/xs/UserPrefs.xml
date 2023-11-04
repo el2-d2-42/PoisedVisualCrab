@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E220DF14-355C-5D1F-234E-F72376C4627E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ISS_Coordinates.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Rotation.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/ISS_Coordinates.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PoisedVisualCrab" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db29a076-588a-440f-9681-ca4b5b63a92e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
