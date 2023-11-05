@@ -17,10 +17,10 @@ namespace ISSDeserializer
                     string jsonResponse = await response.Content.ReadAsStringAsync();
                     ISSData ?issData = JsonConvert.DeserializeObject<ISSData>(jsonResponse);
 
-                    Console.WriteLine($"Name: {issData.name}");
+                    Console.WriteLine($"Name: {issData.Name}");
                     Console.WriteLine($"Altitude: {issData.altitude}");
                     Console.WriteLine($"Longitude: {issData.longitude}");
-                    Console.WriteLine($"Latitude: {issData.latitude}");
+                    Console.WriteLine($"Latitude: {issData.Latitude}");
                     // ... (print other properties as needed)
                 }
                 else
@@ -34,9 +34,9 @@ namespace ISSDeserializer
 
     public class ISSData
     {
-        public string ?name { get; set; }
-        public int id { get; set; }
-        public double latitude { get; set; }
+        public string ?Name { get; set; }
+        public int Id { get; set; }
+        public double Latitude { get; set; }
         public double longitude { get; set; }
         public double altitude { get; set; }
         public double velocity { get; set; }

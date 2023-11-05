@@ -20,6 +20,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Mono.Data.Sqlite/1.0.61": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Data.Sqlite.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Data.Sqlite.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -982,6 +991,18 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Mono.Data.Sqlite/1.0.61": {
+      "sha512": "o5bYhnYDlQ8qiDBDJEnnK/LlQnHzpAb6ixXdrZKcVGv26jBfSm58ujAR1NLBhs0h+R5782VufbaF6gzYq3iiaA==",
+      "type": "package",
+      "path": "mono.data.sqlite/1.0.61",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Data.Sqlite.dll",
+        "mono.data.sqlite.1.0.61.nupkg.sha512",
+        "mono.data.sqlite.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
@@ -3155,6 +3176,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Mono.Data.Sqlite >= 1.0.61",
       "Newtonsoft.Json >= 13.0.3",
       "sqlite-net-pcl >= 1.8.116",
       "system.net.http >= 4.3.4"
@@ -3197,6 +3219,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Mono.Data.Sqlite": {
+            "target": "Package",
+            "version": "[1.0.61, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
@@ -3243,5 +3269,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Mono.Data.Sqlite 1.0.61' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Mono.Data.Sqlite",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
