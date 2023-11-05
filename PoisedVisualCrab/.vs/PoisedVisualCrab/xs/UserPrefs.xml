@@ -3,8 +3,8 @@
     <Files>
       <File FileName="Assets/Scripts/Rotation.cs" />
       <File FileName="Assets/Scripts/ISS_Data.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ISS_Coordinates.cs" Line="27" Column="47" />
-      <File FileName="Assets/Scripts/ISS_Orbit.cs" Line="40" Column="19" />
+      <File FileName="Assets/Scripts/ISS_Coordinates.cs" Line="108" Column="1" />
+      <File FileName="Assets/Scripts/ISS_Orbit.cs" Line="18" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,6 +14,7 @@
               <Node name="Plugins" expanded="True" />
               <Node name="Scripts" expanded="True" />
             </Node>
+            <Node name="Packages" expanded="True" />
           </Node>
         </State>
       </Pad>
